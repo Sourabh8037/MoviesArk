@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+/* SLIDER */
+.App{
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.movie__slider {
+  width: 100%;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.slick-slider,
+.slick-list,
+.slick-track {
+  height: 100%;
+}
+
+.slick-arrow {
+  z-index: 10;
+  padding: 20px;
+  border-radius: 50%;
+}
+  .slick-arrow::before {
+    font-size: 28px; 
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 5px;
   }
+
+
+.slick-next {
+  right: 5% !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.slick-prev {
+  left: 5% !important;
 }
 
-.App-link {
-  color: #61dafb;
+.slick-dots {
+  bottom: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+ .slick-dots li {
+    margin: 0;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .slick-dots button::before {
+      width: 15px !important;
+      height: 15px !important;
+      font-size: 5px !important;
+      color: #fff !important;
+}
+
+@media only screen and (max-width: 400px) {
+  .slick-arrow{
+    display: none !important;
   }
 }
