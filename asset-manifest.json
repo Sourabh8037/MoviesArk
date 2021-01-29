@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MoviesArk/static/css/main.363bc17a.chunk.css",
-    "main.js": "/MoviesArk/static/js/main.56ea922a.chunk.js",
-    "main.js.map": "/MoviesArk/static/js/main.56ea922a.chunk.js.map",
+    "main.js": "/MoviesArk/static/js/main.cb67b7ba.chunk.js",
+    "main.js.map": "/MoviesArk/static/js/main.cb67b7ba.chunk.js.map",
     "runtime-main.js": "/MoviesArk/static/js/runtime-main.191f3ee2.js",
     "runtime-main.js.map": "/MoviesArk/static/js/runtime-main.191f3ee2.js.map",
     "static/css/2.24ae08c6.chunk.css": "/MoviesArk/static/css/2.24ae08c6.chunk.css",
@@ -42,6 +42,6 @@
     "static/css/2.24ae08c6.chunk.css",
     "static/js/2.e9ad891f.chunk.js",
     "static/css/main.363bc17a.chunk.css",
-    "static/js/main.56ea922a.chunk.js"
+    "static/js/main.cb67b7ba.chunk.js"
   ]
 }
